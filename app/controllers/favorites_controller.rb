@@ -10,6 +10,12 @@ class FavoritesController < ApplicationController
         render json: @favorite
     end
 
+    def destroy
+        @favorite = Favorite.find(params[:id])
+        @favorite.destroy
+        render json: { status: 'SUCCESS', message: 'deleted the post', data: @favorite }
+    end
+
     private 
 
     def favorite_params

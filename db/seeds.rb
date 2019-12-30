@@ -28,9 +28,9 @@
 #     explicit_content: podcast["explicit_content"]
 #     )
 #    end
+Favorite.destroy_all
 Podcast.destroy_all 
 User.destroy_all
-Favorite.destroy_all
 
 
 views = Podcast.create(title: "Views with David Dobrik and Jason Nash", genre: "Comedy", thumbnail: "https://is3-ssl.mzstatic.com/image/thumb/Podcasts113/v4/91/01/83/910183ef-dec6-3f08-72a7-0403a563d8da/mza_2070081194714925120.jpeg/400x400bb.jpg", website: "https://open.spotify.com/show/1vPkGMyrKXdbYWHxSw9kd1", language: "English", description: "In this weekly podcast, David Dobrik, a 23-year-old, sexy, millionaire YouTuber and Jason Nash, a 40-something single dad with a vlog of his own, take you behind-the-scenes of their vlogs and show you what living the “YouTube life” is really like. Join these two as they confess their most intimate thoughts, discuss pop-culture, and dissect their own contentious relationship. New episodes drop every Thursday!", explicit_content: true)
