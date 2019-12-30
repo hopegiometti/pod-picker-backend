@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  image: MyString
+  website: MyString
+  language: MyString
+  itunes_id: 1
+  thumbnail: MyString
+  total_episodes: 1
+  description: MyString
+  explicit_content: false
+
+two:
+  title: MyString
+  image: MyString
+  website: MyString
+  language: MyString
+  itunes_id: 1
+  thumbnail: MyString
+  total_episodes: 1
+  description: MyString
+  explicit_content: false
