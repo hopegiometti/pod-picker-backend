@@ -1,3 +1,3 @@
 class FavoriteSerializer < ActiveModel::Serializer
-  attributes :id, :podcast
+  attributes :id, :podcast, :user
 end
